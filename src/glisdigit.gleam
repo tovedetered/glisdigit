@@ -12,7 +12,7 @@ pub fn is_digit_10(to_check: String) -> Bool {
   }
 }
 
-///Simple function that checks if a character is a digit or not
+///Simple function that checks if every character is a digit or not
 /// using any given base, up to 32; If a base is given greater than 32, 
 /// function will evaluate to false
 pub fn is_digit(to_check: String, base: Int) -> Bool {
